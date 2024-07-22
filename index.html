@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <style>
+           body {
+            --body-color: #fff;
+            --box-color:  #202425;
+            --nav-color: #fff;
+            --color-white: #000;
+            --text-color: #000;
+            --nav-icon: #000;
+            --logo-color: #000;
+            --icon-color: #8749f2;
+            --mode-color: #000;
+        }
+        /* Define dark mode styles */
+        body.dark {
+            --body-color: #202425;
+            --box-color:  #fff;
+            --nav-color: #262425;
+            --color-white: #fff;
+            --text-color: #fff;
+            --nav-icon: #fff;
+            --logo-color: #fff;
+            --icon-color: #8749f2;
+            --mode-color: #fff;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nonkoliso</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+ <div class="container">
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">N.M</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- Dark mode -->
+        <div class="mode">
+            <div class="moon-sun" id="toggle-switch">
+                <i class="fa fa-moon" id="moon"></i>
+                <i class="fa fa-sun" id="sun"></i>
+            </div>
+        </div>
+        <!-- Menu bars button -->
+        <div class="nav-menu-btn" onclick="myMenuFunction()">
+  
+            <i class="uil uil-bars"></i>
+        </div>
+    </nav>
+</div>
+
+     <!--main-->
+     <main class="wrapper">
+         <section class="featured-box" id="home">
+           <div class="featured-text">
+            <div class="hello">
+                <p>Hello I am  </p>
+            </div>
+            <div class="featured-name">
+        <span class="typedText"></span>
+
+            </div>
+            <div class="text-info">
+                <p>Application developer.</p>
+                </div>
+                <div class="text-btn">
+                    <button id="hiremeBtn" class="btn hire-btn">My Journey</button>
+
+                <button class="btn" id="downloadBtn">Access Resume<i class="uil uil-file"></i></button>
+
+
+            </div>
+            <div class="socical_icons">
+            
+            <div class="icon"><a href="https://www.linkedin.com/in/nonkoliso-matiwane-85b6872a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+        
+            <div class="icon"><a href="https://github.com/Nonkoliso" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+
+               </div>
+            </div>
+           <div class="featured-image">
+            <div class="image">
+                <img src="NKOLII.jfif" alt="">
+            </div>
+           </div>
+         </section>
+         <!--about box-->
+         <section class="section" id="about">
+            <div class="top-header">
+                <h1>About  me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                  <div class="about-info">
+                    <figure class="about-me">
+                     <figcaption>
+                        <img src="photo.jpeg" alt="" class="profile"/>
+                        <h2>Software developer</h2>
+                     <p>
+                        I am an eager entry-level software developer proficient in full-stack web and application development, encompassing Java, Python, JavaScript, C#, React.js, Node.js, SQL, HTML, and CSS. Driven by a passion for problem-solving and innovation, I am ready to contribute and learn in collaborative environments to create impactful solutions.
+                    </p>
+                    </figure>
+                 <button class="about-me-btn" onclick="openDocument()">Hire Me</button>
+                  </div>  
+                </div>
+                <div class="skill">
+                   <div class="skill-box">
+                    <span class="title">HTML</span>
+                    <div class="skill-bar html">
+                        <span class="skill-per">
+                            
+                        </span>
+                    </div>
+                   </div>
+                  
+                   <div class="skill-box">
+                    <span class="title">CSS</span>
+                    <div class="skill-bar css">
+                        <span class="skill-per">
+                           
+                        </span>
+                    </div>
+                   </div>
+                   <div class="skill-box">
+                    <span class="title">Java</span>
+                    <div class="skill-bar html">
+                        <span class="skill-per">
+                            
+                        </span>
+                    </div>
+                   </div>
+                   <div class="skill-box">
+                    <span class="title">Python</span>
+                    <div class="skill-bar html">
+                        <span class="skill-per">
+                            
+                        </span>
+                    </div>
+                   </div> 
+                   <div class="skill-box">
+                    <span class="title">JavaScript</span>
+                    <div class="skill-bar html">
+                        <span class="skill-per">
+                            
+                        </span>
+                    </div>
+                   </div>
+                   <div class="skill-box">
+                    <span class="title">c#</span>
+                    <div class="skill-bar html">
+                        <span class="skill-per">
+                            
+                        </span>
+                    </div>
+                   </div>
+                   <div class="skill-box">
+                    <span class="title">Node.js</span>
+                    <div class="skill-bar">
+                        <span class="skill-per javascript">
+                            
+                        </span>
+                    </div>
+                   </div> 
+                   <div class="skill-box">
+                    <span class="title">React.js</span>
+                    <div class="skill-bar">
+                        <span class="skill-per javascript">
+                            
+                        </span>
+                    </div>
+                   </div> 
+                   
+                </div>
+            </div>
+         </section>
+         <!--Projects box-->
+         <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box" onclick="openLink('https://keen-khapse-74ab94.netlify.app')">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Project1</h3>
+                    <label style="cursor: pointer; color: #9370DB; text-decoration: underline; font-weight: bold;"
+                    onmouseover="this.style.color='#ffffff'; this.style.textDecoration='none';"
+                    onmouseout="this.style.color='#9370DB'; this.style.textDecoration='underline';">Game</label>
+             
+                </div>
+               <div class="project-box" onclick="viewProject('https://aquamarine-hamster-1ac540.netlify.app')">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Project2</h3>
+                <!-- Label with link -->
+                <label>
+                    <a href="https://aquamarine-hamster-1ac540.netlify.app" target="_blank"
+                       style="color: #9370DB; text-decoration: underline; font-weight: bold;"
+                       onmouseover="this.style.color='#ffffff'; this.style.textDecoration='none';"
+                       onmouseout="this.style.color='#9370DB'; this.style.textDecoration='underline';">
+                       Landing page
+                    </a>
+                </label>
+                
+
+            </div>
+            <div class="project-box" onclick="openLink('https://whimsical-torte-8b4bca.netlify.app')">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Project3</h3>
+                <label style="cursor: pointer; color: #9370DB; text-decoration: underline; font-weight: bold;"
+                onmouseover="this.style.color='#ffffff';"
+                onmouseout="this.style.color='#9370DB';">
+             Salon website
+         </label>
+         
+            </div>
+            </div>
+         </section>
+         <div class="scroll-up-btn">
+            <i class="fa fa-arrow-up"></i>
+          </div>
+         <!--contact box-->
+         <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Connect for Collaboration!</h1>
+                <span>Reach Out to Start a Conversation about Collaboration!</span>
+            </div>
+            <div class="row">
+               <div class="col">
+                <div class="contact-info">
+                    <h2>Find me<i class="uil uil-corner-right-down"></i></h2>
+                    <p>
+                        <a href="mailto:nonkolisomatiwane99@gmail.com">
+                            <i class="uil uil-envelope"></i>nonkolisomatiwane99@gmail.com
+                        </a>
+                    </p>
+                    
+                    <p><i class="uil uil-phone"></i>Phone:0734107161</p>
+                </div>
+               </div>
+               <div class="col">
+                <div class="form-control">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="form-inputs">
+                            <input type="hidden" name="access_key" value="4b897254-efac-4d41-b7d9-849d3922422c">
+                           
+                            <input type="text" name="name" class="input-field" placeholder="Name" required>
+                            <input type="email" name="email" class="input-field" placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <input type="text" name="subject" class="input-subject" placeholder="Subject" required>
+                            <textarea name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+         </section>
+     </main>
+     <!--Footer-->
+     <footer>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+             <li class="footer_menu_list">
+                <a href="#home">Home</a>
+             </li>  
+             <li class="footer_menu_list">
+                <a href="#about">About</a>
+             </li>
+             <li class="footer_menu_list">
+                <a href="#projects">Projects</a>
+             </li>
+             <li class="footer_menu_list">
+                <a href="#contact">Contact</a>
+             </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+          
+            <div class="icon"><a href="https://www.linkedin.com/in/nonkoliso-matiwane-85b6872a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+            
+            <div class="icon"><a href="https://github.com/Nonkoliso" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+
+        </div>
+        <div class="bottom-footer">
+            <p>Copyrights &copy; <a href="#home" style=" font-weight: bold;color: #9370DB;text-decoration: none;">Nonkoliso</a> - All rights reserved 2024</p>
+        </div>
+     </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
